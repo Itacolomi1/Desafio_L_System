@@ -10,6 +10,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
+// Projeto desenvolvido pela dupla: 
+//                                  -Ítalo Martins Tomaz Rocha RA 082170012
+//                                  -Milena Ferreira de Paula RA 082170022
+
 public class Desafio_L_System {
 
     static String[] alfabeto = new String[10];
@@ -22,6 +26,7 @@ public class Desafio_L_System {
     public static void main(String[] args) throws Exception { 
         ReadFile();
         System.out.println(Gera_String());
+        System.out.println("Trabalho feito por Ítalo Martins, RA 082170012 e Milena Ferreira RA 082170022");
     }
 
     public static String Gera_String(){
